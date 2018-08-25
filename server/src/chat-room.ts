@@ -28,14 +28,13 @@ class ChatRoom {
     public serialize() {
         return {
             name,
-            image,
             numMembers: this.members.size
         }
     }
 
 }
 
-export const chatRoom = new ChatRoom();
+export const newChatRoom = new ChatRoom();
 // function chatroom() {
 //     return new ChatRoom()
 // }
