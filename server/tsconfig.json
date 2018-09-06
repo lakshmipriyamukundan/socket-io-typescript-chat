@@ -1,8 +1,5 @@
 {
-  "files": [
-    "src/*.ts",
-    "src/model/*.ts"
-  ],
+  "include": ["src/**/*", "tests/**/*", "typings/*"],
   "compilerOptions": {
     "noImplicitAny": true,
     "target": "es5"
